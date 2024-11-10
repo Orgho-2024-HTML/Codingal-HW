@@ -1,0 +1,54 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:aqua;
+    color: black;
+}
+
+h2{
+    color: brown;
+    text-align: center;
+}
+
+a{
+    color:blue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+ul>li{
+    font-weight: bold;
+}
+
+h2+p{
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul li:hover{
+    color: chartreuse;
+}
+
+ul li:nth-child(3){
+    background-color: black;
+}
+
+p:not(:first-of-type){
+    text-decoration: underline;
+}
+
+ul li::before{
+    content: "🚀";
+}
+
+a::after{
+    content: "🌠";
+}
+
+p::first-letter{
+    font-size: 200%;
+    color:blueviolet
+}
